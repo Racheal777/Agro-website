@@ -14,7 +14,7 @@ export default function Header() {
       </div>
 
       <div className="header-text">
-        
+        <h1>rachael.kuranchie@meltwater.org</h1>
         <h1>
           We provide you with the best <span className="span">Organic Food </span>
         </h1>

@@ -19,7 +19,7 @@ body {
       rgba(84, 82, 82, 0.5),
       rgba(104, 103, 103, 0.5)
     ),
-    url("./assets/pic.jpg");
+    url("../public/assets/pic.jpg");
   padding: 20px;
   background-position: center;
   height: 90vh;
@@ -77,8 +77,8 @@ a:hover {
 }
 
 .btn:hover {
-  background: white;
-  color: rgb(8, 100, 8);
+  background: rgb(8, 100, 8);
+  color: white;
   text-decoration: none;
 }
 
@@ -183,8 +183,8 @@ img {
 }
 
 .products h2 {
-  padding-bottom: 10px;
-  color: #ffffff;
+  padding-bottom: 20px;
+  color: rgb(8, 100, 8);
 }
 
 .items {
@@ -203,17 +203,16 @@ grid-row-gap: 28px;
   border-radius: 5px;
   background-color: #f7f8fb;
   border-radius: 5px;
-  font-size: 10px;
+  font-size: 18px;
+  padding-bottom: 8px;
 }
 
-.card p {
-  padding: 12px;
-  font-size: 10px;
+.card p, h2 {
+  padding: 9px;
+  
 }
 
-.card img{
-  border-radius: 5px;
-}
+
 
 .service-items {
   display: grid;
@@ -266,7 +265,7 @@ footer{
   /* linear-gradient(rgba(0, 0, 0, 0.5),
     rgba(0, 0, 0, 0.5)), */
   background-image: 
-    url("./assets/pic3.jpg");
+    url("../public/assets/pic.jpg");
   padding: 20px;
   background-position: center;
   height: 90vh;
@@ -276,6 +275,7 @@ footer{
 }
 
 .product-item{
+  padding: 50px 40px;
   display: grid;
 grid-template-columns: repeat(5, 1fr);
 grid-template-rows: repeat(2, 1fr);
