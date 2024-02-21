@@ -4,6 +4,8 @@ import {BrowserRouter, Route, Routes} from 'react-router-dom'
 import Header from './components/header';
 import Produce from '../src/pages/produce';
 import Home from './pages/home';
+import About from './pages/about';
+import ProduceForm from './pages/produceForm';
 
 
 function App() {
@@ -16,6 +18,13 @@ function App() {
 
     <Route path="/produce" element={<Produce />}>
     </Route>
+
+    <Route path="/about" element={<About />}>
+    </Route>
+
+    <Route path="/add" element={<ProduceForm />}>
+    </Route>
+
     </Routes>
 
     </BrowserRouter>

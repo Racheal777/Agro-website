@@ -9,12 +9,30 @@ export default function  Products() {
   return (
 
     <div>
-        <section className='products'>
+        <section className='produce'>
         <div>
             <h2>Our Products</h2>
         </div>
 
-        
+        <div>
+          <ul>
+            <li>
+              <a href="/"> Vegetables</a>
+            </li>
+
+            <li>
+              <a href="/"> Fruits</a>
+            </li>
+
+            <li>
+              <a href="/"> Dairy</a>
+            </li>
+
+            <li>
+              <a href="/"> Legumes</a>
+            </li>
+          </ul>
+        </div>
         <div className='product-item' >
 
         {produce.map((item) => (
@@ -26,7 +44,7 @@ export default function  Products() {
                 
                   <h2>{item.name}</h2>
                   <p>{item.description}</p>
-                  <p>{item.price}</p>
+                  <p>GHC {item.price}</p>
                   <div><button type="submit" className="btn">Add to Cart</button></div>
                 </div>
                

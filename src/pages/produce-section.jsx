@@ -31,7 +31,7 @@ export default function ProduceSection() {
 
       </div>
 
-      <div><button type="submit" class="btn">View more</button></div>
+      <div><button type="submit" class="btn"><a href="/produce">View more</a> </button></div>
 
     </section>
     </div>

@@ -21,7 +21,7 @@ export default function Navbar() {
            
 
             <li>
-            <Link to="/Gallery">Gallery</Link>
+            <Link to="/add">Add Produce</Link>
             </li>
 
            

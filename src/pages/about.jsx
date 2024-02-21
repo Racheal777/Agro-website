@@ -1,24 +1,26 @@
 import React from 'react'
+import Header from '../components/header'
+import AboutUs from '../components/about-us'
+
 
 export default function About() {
+    const headerContents = (
+        <React.Fragment>
+          <h1>
+            Eat Healthy with <span className="span">Organic Food</span>
+          </h1>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Architecto
+            atque suscipit laudantium .
+          </p>
+         
+        </React.Fragment>
+      );
   return (
     <div>
 
-<section class="about-section">
-      <div class="about-text">
-        <div><h2 class="icon">theAgroShop</h2></div>
-        <h3>About Us</h3>
-
-       
-
-        <p>
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Esse, saepe
-          recusandae in provident expedita nostrum sit dolor cupiditate officia,
-          pariatur consequuntur ipsum. Mollitia, recusandae voluptatum nisi quos
-          dicta blanditiis omnis!
-        </p>
-      </div>
-    </section>
+<Header bg="bg" headerContent={headerContents}/>
+    <AboutUs/>
     </div>
   )
 }
