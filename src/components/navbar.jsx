@@ -1,4 +1,5 @@
 import React from 'react'
+import { Outlet, Link } from "react-router-dom";
 
 export default function Navbar() {
   return (
@@ -6,27 +7,31 @@ export default function Navbar() {
          <nav className="navbar">
           <ul>
             <li>
-              <a href="/home">Home</a>
+             <Link to="/">Home</Link>
             </li>
 
             <li>
-              <a href="/about">About</a>
+            <Link to="/about">About</Link>
             </li>
 
             <li>
-              <a href="/gallery">Gallery</a>
-            </li>
-
-            <li>
-              <a href="/store">Store</a>
+            <Link to="/produce">Produce</Link>
             </li>
 
            
 
             <li>
-              <a href="/contact">Contacts</a>
+            <Link to="/Gallery">Gallery</Link>
+            </li>
+
+           
+
+            <li>
+            <Link to="/contact">Contact</Link>
             </li>
           </ul>
+
+          <Outlet/>
         </nav>
 
     </div>
