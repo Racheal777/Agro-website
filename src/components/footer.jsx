@@ -5,8 +5,10 @@ export default function Footer() {
     <div>
          <footer>
         <div>
-            <p>copyright</p>
+            <p>Made with love by Racheal Kuranche</p>
         </div>
+
+        <p> © 2020 Copyright:</p>
     </footer>
     </div>
   )

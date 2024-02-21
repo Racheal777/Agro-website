@@ -1,6 +1,7 @@
 import React from 'react'
 import Header from '../components/header'
 import AboutUs from '../components/about-us'
+import Footer from '../components/footer';
 
 
 export default function About() {
@@ -21,6 +22,8 @@ export default function About() {
 
 <Header bg="bg" headerContent={headerContents}/>
     <AboutUs/>
+
+    <Footer/>
     </div>
   )
 }
