@@ -20,7 +20,7 @@ export default function About() {
   return (
     <div>
 
-<Header bg="bg" headerContent={headerContents}/>
+<Header bg="about-bg" headerContent={headerContents}/>
     <AboutUs/>
 
     <Footer/>

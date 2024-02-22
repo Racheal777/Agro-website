@@ -4,6 +4,7 @@ import Header from '../components/header'
 import ProduceSection from './produce-section'
 import Footer from '../components/footer';
 import AboutUs from '../components/about-us';
+import Team from './team';
 
 export default function Home() {
     const headerContents = (
@@ -23,6 +24,7 @@ export default function Home() {
         <Header bg="bg" headerContent={headerContents}/>
         <AboutUs/>
         <ProduceSection/>
+        <Team/>
         <Footer/>
     </div>
   )
