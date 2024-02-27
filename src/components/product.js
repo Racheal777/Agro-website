@@ -10,6 +10,7 @@ export const productItems = [
       "category": "fruits"
 
     },
+
     {
       "id": 2,
       "name": "Ripe Bananas",

@@ -8,7 +8,7 @@ import Team from './team';
 
 export default function Home() {
     const headerContents = (
-        <React.Fragment>
+        <>
           <h1>
             No.1 Producer of <span className="span">Organic Food</span>
           </h1>
@@ -17,7 +17,7 @@ export default function Home() {
             atque suscipit laudantium .
           </p>
           <div><button type="submit" className="btn">Start Here</button></div>
-        </React.Fragment>
+        </>
       );
   return (
     <div>

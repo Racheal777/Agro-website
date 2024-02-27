@@ -5,6 +5,13 @@ import { productItems } from './product'
 export default function  Products() {
 
     const produce = productItems
+    
+    // const mappedProduce = produce.map((item) => {
+    //   console.log(item)
+    // })
+
+    const filtered = produce.filter((item) => item.category === "dairy")
+    console.log('huhuh',filtered)
 
   return (
 
@@ -35,7 +42,7 @@ export default function  Products() {
         </div>
         <div className='product-item' >
 
-        {produce.map((item) => (
+        {/* {produce.map((item) => (
            
             <div key={item.id} >
 
@@ -48,10 +55,12 @@ export default function  Products() {
                   <div><button type="submit" className="btn">Add to Cart</button></div>
                 </div>
                
-                 
-               
             </div>
-        ))}
+        ))} */}
+
+
+
+
        </div>
         </section>
     </div>

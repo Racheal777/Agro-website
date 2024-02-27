@@ -1,5 +1,5 @@
 import React from 'react'
-import Navbar from '../components/navbar'
+
 import Products from '../components/produce'
 import Header from '../components/header';
 
